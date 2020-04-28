@@ -15,9 +15,14 @@ class App extends Component {
     //console.log(this.props.data);
     return (
       <div className="App">
-        <h1>MarkDown Previewer</h1>
-        <Editor data={this.props.data}/>
-        <Previewer data={this.props.data}/>
+        <div className="jumbotron">
+          <h2 className="text-info">MarkDown Previewer</h2>
+          <p>Built using ReactJS, Redux, React-Markdown, Bootstrap.</p>
+        </div>
+        <div className="d-flex flex-row justify-content-around">
+          <Editor data={this.props.data}/>
+          <Previewer data={this.props.data}/>
+        </div>
         <Footer />
       </div>
     );

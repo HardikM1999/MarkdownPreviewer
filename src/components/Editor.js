@@ -23,8 +23,8 @@ class Editor extends Component{
     {
         return(
             <div className="editor-div">
-                <h3>Editor</h3>
-                <textarea id="editor" rows="10" cols="50" type="text" value={this.props.data} onChange={(event) => this.handleChange(event)}></textarea>
+                <h4>Editor</h4>
+                <textarea id="editor" rows="10" cols="70" type="text" value={this.props.data} onChange={(event) => this.handleChange(event)}></textarea>
             </div>
         );
     }
