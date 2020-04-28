@@ -1,0 +1,13 @@
+.previewer-div {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 30%;
+}
+#previewer {
+    top: 10px;
+    left: 20px;
+    right: 100px;
+    bottom: 100px;
+    border: 2px solid #888;
+    resize: none;
+}
