@@ -6,8 +6,9 @@
 h4 {
     color: white;
 }
-#previewer {
+#preview {
     text-align: left;
+    overflow: scroll;
     background-color: white;
     width: 500px;
     height: 250px;

@@ -12,7 +12,7 @@ class Previewer extends Component{
         return(
             <div className="previewer-div">
                 <h4>Previewer</h4>
-                <div id="previewer">
+                <div id="preview">
                     <ReactMarkdown source={this.props.data}/>
                 </div>
             </div>
