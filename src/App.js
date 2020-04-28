@@ -12,7 +12,7 @@ class App extends Component {
     super(props);
   }
   render(){
-    console.log(this.props.data);
+    //console.log(this.props.data);
     return (
       <div className="App">
         <h1>MarkDown Previewer</h1>

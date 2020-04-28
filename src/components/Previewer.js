@@ -1,17 +1,6 @@
 import React,{ Component } from "react";
 import "./Previewer.css";
-import marked from "react-marked";
-
-marked.setOptions({
-    renderer: new marked.Renderer(),
-    gfm: true,
-    tables: true,
-    breaks: false,
-    pedantic: false,
-    sanitize: true,
-    smartLists: true,
-    smartypants: false
-  });
+import ReactMarkdown from "react-markdown";
 
 class Previewer extends Component{
     constructor(props) {
@@ -23,7 +12,9 @@ class Previewer extends Component{
         return(
             <div className="previewer-div">
                 <h3>Previewer</h3>
-        <div id="previewer" >{marked("hello")}</div>
+                <div id="previewer">
+                    <ReactMarkdown source={this.props.data}/>
+                </div>
             </div>
         );
     }

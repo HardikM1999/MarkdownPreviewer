@@ -1,13 +1,14 @@
 .previewer-div {
     padding-top: 2%;
+    padding-left: 30%;
+    padding-right: 30%;
     padding-bottom: 2%;
-    height: 30%;
+    height: 40%;
+    text-align: center;
 }
 #previewer {
-    top: 10px;
-    left: 20px;
-    right: 100px;
-    bottom: 100px;
+    text-align: center;
+    width: 100%;
+    height: 60%;
     border: 2px solid #888;
-    resize: none;
 }

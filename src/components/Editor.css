@@ -3,6 +3,7 @@
     padding-bottom: 2%;
 }
 #editor {
+    text-align: center;
     border: 2px solid #888;
     resize: none;
 }
